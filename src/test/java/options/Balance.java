@@ -8,6 +8,6 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin = {"pretty"},
-		glue = {"stepdefs"},
-		features = {"src/test/resources/features"})
-public class CucumberTests {}
+		glue = {"stepdefs.balance"},
+		features = {"src/test/resources/features/balance"})
+public class Balance {}
