@@ -32,8 +32,8 @@ public class StepDefinitions {
     //private String balanceUrl = "http://gbvlixaacpn02u.metis.prd:8080/api/v2/balance/";
 
     // Amazon
-	private String loginUrl = "http://18.195.214.115:8080/auth/login?username=nxchange&password=passw0rd";
-    private String baseUrl = "http://18.195.214.115:8080/api/v2/transaction";
+	private String loginUrl = "http://18.195.214.115:8089/auth/login?username=nxchange&password=passw0rd";
+    private String baseUrl = "http://18.195.214.115:8089/api/v2/transaction";
    
     
     
