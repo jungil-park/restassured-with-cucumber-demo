@@ -6,7 +6,7 @@ Feature: Test Panopticon API
 #	And response includes the following
 #	| totalItems 	 		| 1 					|
     And response includes the following in any order
-	| amount 									| 1000.000000000000000000	|
+	| amount 									| 100000000.000000000000000000	|
 #	| items.volumeInfo.publisher 				| Simon and Schuster		|   
 #	| items.volumeInfo.pageCount 				| 630						|
 
