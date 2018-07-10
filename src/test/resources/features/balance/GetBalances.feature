@@ -1,6 +1,6 @@
 Feature: Test Panopticon API
   Scenario: A client calls web service to get Balance
-	Given a client exists with id of acct8
+	Given a client exists with id of DepositSuspense
 	When a client retrieves the balance by id and instrument EUR
 	Then the status code is 200
 #	And response includes the following
